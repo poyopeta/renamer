@@ -3,6 +3,7 @@ cd = os.getcwd() #pythonファイルがあるディレクトリ. この中にあ
 if os.path.isfile(cd+'/.DS_Store'): #ゴミ
     os.remove(cd+'/.DS_Store')
 target = os.listdir(cd)
+
 temp_log = '' #rename log
 i = 1 #単純にナンバリング
 for item in target:
